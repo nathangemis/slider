@@ -1,0 +1,35 @@
+body {
+
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slider {
+    
+    
+    position: relative;
+    margin: 0;
+    transform: scale(0.5);
+    cursor: pointer;
+}
+
+img {
+    position: absolute;
+
+}
+.slide1 {
+    z-index: 6;
+
+    
+}
+
+.slide2 {
+    z-index: 4;
+
+}
+
+.slide3 {
+    z-index: 2;
+}
+
